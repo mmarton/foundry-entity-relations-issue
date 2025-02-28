@@ -20,6 +20,7 @@ final class ProductFactory extends PersistentProxyObjectFactory
     protected function defaults(): array
     {
         return $this->oneToOneBeforeOneToMany();
+//        return $this->oneToOneAfterOneToMany();
     }
 
     /**
